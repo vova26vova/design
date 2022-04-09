@@ -1,0 +1,136 @@
+.menu {
+    background-color: rgb(58, 16, 97);
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    top: 5px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.menu a {
+    color: rgb(255, 255, 255);
+    display: block;
+    text-decoration: none;
+    padding: 8px 16px;
+    text-align: center;
+
+}
+
+.menu h3 {
+    color: rgb(0, 26, 255);
+}
+
+.menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 15px;
+
+}
+
+.main {
+    margin: 80px 40px 0px 360px;
+}
+
+.main h1 {
+    font-size: 64px;
+}
+
+.main h2 {
+    font-size: 48px;
+    color: rgb(58, 16, 97);
+}
+
+.main hr {
+    border: 5px solid rgb(58, 16, 97);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.images img {
+    width: 45%;
+    border-radius: 15px;
+    margin: 5px;
+    opacity: 0.7;
+}
+
+.images img:hover {
+    opacity: 1;
+    transition: 1s;
+    border-radius: 30px;
+}
+
+.team {
+    width: 30%;
+    display: inline-block;
+    margin: 15px;
+}
+
+.team img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.descrition {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.package ul {
+    list-style-type: none;
+    background-color: aliceblue;
+    padding: 0;
+}
+
+.package {
+    width: 45%;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+
+
+}
+
+.package li {
+    border-bottom: 1px rgb(101, 101, 112) solid;
+    padding: 15px 0;
+}
+
+#roke {
+    background-color: black;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+#stone {
+    background-color: rgb(217, 255, 0);
+    padding: 25px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.package a:hover{
+    background-color: rgb(0, 26, 255);
+    color: rgb(18, 8, 8);
+}
+.package a{
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+.contact input{
+    width: 100%;
+    padding: 8px;
+}
+.contact button{
+  width:100% ;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(53, 26, 78);
+  border-radius: 10px;
+}
+   
+
+
+
